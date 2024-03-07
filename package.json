@@ -1,0 +1,13 @@
+{
+    "name": "com.hexdogstudio.performance.fpslocker",
+    "displayName": "FPS Locker",
+    "description": "Extension for testing application on different frame rates.",
+    "version": "1.0.0",
+    "unity": "2017.1",
+    "license": "MIT",
+    "author": {
+      "name": "Benedek Mészáros",
+      "email": "benedek.meszaros.contact@gmail.com",
+      "url": "https://github.com/benedekmeszaros"
+    }
+}
