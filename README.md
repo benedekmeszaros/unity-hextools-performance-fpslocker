@@ -1,5 +1,5 @@
 # HexTools - FPS Locker
-The Container script is a custom UI component designed to provide flexible sizing and positioning for UI elements within a Unity project. It allows for dynamic adjustment of width, height, minimum and maximum constraints, margins, and clamping behavior.
+This script enhances the Unity Editor's functionality by allowing developers to easily configure and adjust frame rate limits for their projects directly from the editor interface.
 <br/>
 
 ## Supported platforms
