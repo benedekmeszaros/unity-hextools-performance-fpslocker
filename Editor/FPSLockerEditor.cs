@@ -35,7 +35,7 @@ namespace HexTools.Performance.Editor
       FPS = EditorGUILayout.Popup("FPS Cap", FPS, new string[] { "Uncapped", "244 FPS", "144 FPS", "75 FPS", "60 FPS", "30 FPS" });
       if (EditorGUI.EndChangeCheck())
       {
-        Application.targetFrameRate = auto.boolValue ? Screen.currentResolution.refreshRate : cap.intValue;
+        Application.targetFrameRate = auto.boolValue ? (int) Screen.currentResolution.refreshRateRatio.value : cap.intValue;
         serializedObject.ApplyModifiedProperties();
       }
     }
