@@ -22,11 +22,11 @@ namespace HexTools.Performance
         {
 #if UNITY_EDITOR
             if (auto)
-                Application.targetFrameRate = Screen.currentResolution.refreshRate;
+                Application.targetFrameRate = (int) Screen.currentResolution.refreshRateRatio.value;
             else
                 Application.targetFrameRate = cap;
 #else
-        Application.targetFrameRate = Screen.currentResolution.refreshRate;
+        Application.targetFrameRate = (int) Screen.currentResolution.refreshRateRatio.value;
 #endif
         }
     }
